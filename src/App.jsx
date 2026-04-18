@@ -80,7 +80,7 @@ function App() {
 
       <Gallery />
 
-      <main className="max-w-6xl px-20 w-full py-12">
+      <main className="max-w-6xl mx-auto px-20 py-12 space-y-8">
         <Contact />
       </main>
       
