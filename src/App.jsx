@@ -57,7 +57,7 @@ function App() {
 
       {/* Welcome Page */}
       <section className="pt-32 pb-20 text-center bg-gray-50">
-        <img src="/src/pp.jpg" alt="picture" className="w-40 h-40 mx-auto rounded-full border-4 border-gray-800 shadow-lg" />
+        <img src="/pp.jpg" alt="picture" className="w-40 h-40 mx-auto rounded-full border-4 border-gray-800 shadow-lg" />
 
         <h1 className="mt-10 text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight max-w-3xl mx-auto">
           Welcome to <span className="text-[#6b0e1d] font-mono">Rizele</span>'s Portfolio
