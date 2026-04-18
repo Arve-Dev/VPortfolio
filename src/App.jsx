@@ -6,6 +6,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Gallery from './components/Gallery';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
                 <a href="#education" className="hover:underline">ED</a>
                 <a href="#experience" className="hover:underline">XP</a>
                 <a href="#skills" className="hover:underline">Skills</a>
+                <a href="#gallery" className="hover:underline">Gallery</a>
               </div>
           </div>
 
@@ -69,14 +71,19 @@ function App() {
       </section>
 
       {/* Body */}
-      <main className="max-w-8xl mx-auto px-20 py-12 space-y-8">
+      <main className="max-w-6xl mx-auto px-20 py-12 space-y-8">
         <AboutMe />
         <Education />
         <Experience />
         <Skills />
-        <Contact />
       </main>
 
+      <Gallery />
+
+      <main className="max-w-6xl px-20 w-full py-12">
+        <Contact />
+      </main>
+      
       {/* Scroll to top appear */}
       {showButton && (
         <button onClick={scrollToTop} className="fixed bottom-6 right-6 bg-[#6b0e1d] text-white w-12 h-12 rounded-full shadow-lg hover:bg-red-800 transition flex items-center justify-center" >
